@@ -1,4 +1,5 @@
 - Folien für WOGRA-Meeting
+- Gdk: IsEqual
 
 - GdMergeMatching auch bei MergeSortedObjectVector verwenden
 - GdDiffMatching implementieren und verwenden
