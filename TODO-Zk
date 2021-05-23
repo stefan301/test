@@ -1,11 +1,7 @@
-- Gdk: IsEqual
-
 - GdMergeMatching auch bei MergeSortedObjectVector verwenden
 - GdDiffMatching implementieren und verwenden
-- WiresFolder.wires darf nicht als gd_set definiert werden, weil die Reihenfolge relevant ist. Trotzdem sollten die Objekte anhand der Guid zugeordnet werden -> anderes Attribut ?!
 - TypedDetachedBuffer -> SizePrefixed schreiben, GetRoot evtl. entfernen und nur GetSizePrefixedRoot lassen . Gdk::FinishSizePrefixedFileCotent statt fbb.Finish !!
 - Merge, der zuerst base/mine/theirs kopiert und darauf arbeitet
 	Es hätte aber evtl. doch vorteile, wenn base/mine/theirs-Vectoren aufgund der gefundenen Zuordnungen befüllt würden, weil es dann vermutlich zu weniger Überlappungen bei den Connectlines kommen würde – allerdings stimmt dann die Reihenfolge nicht mit der ursprünglichen überein
 - Diff/Merge-Schema: evtl. Offsets ganz weglassen
-- alternatives Diff/Merge-Schema untersuchen (Pfade)
 - D:\devtest\VisualStudioAnalyzePftlogConverter\VisualStudioAnalyzePftlogConverter
