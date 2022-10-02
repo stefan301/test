@@ -1,7 +1,5 @@
-- GdMergeMatching auch bei MergeSortedObjectVector verwenden
-- GdDiffMatching implementieren und verwenden
-- TypedDetachedBuffer -> SizePrefixed schreiben, GetRoot evtl. entfernen und nur GetSizePrefixedRoot lassen . Gdk::FinishSizePrefixedFileCotent statt fbb.Finish !!
-- Merge, der zuerst base/mine/theirs kopiert und darauf arbeitet
-	Es hätte aber evtl. doch vorteile, wenn base/mine/theirs-Vectoren aufgund der gefundenen Zuordnungen befüllt würden, weil es dann vermutlich zu weniger Überlappungen bei den Connectlines kommen würde – allerdings stimmt dann die Reihenfolge nicht mit der ursprünglichen überein
-- Diff/Merge-Schema: evtl. Offsets ganz weglassen
+- Diff3:
+	- IntermediateDiffItems über Dateien hinweg gruppieren (gd_key/gd_key_ref-Attribute) -> required, cOnflicting und dann in eine eigene Datei schreiben
+	- beachten: was passiert bei Änderung (z.B. ComponentCode eines Devices -> Referenzen vorher/nachher unterschiedlich)
+	- Alternative zu den Änderungsgruppen?!
 - D:\devtest\VisualStudioAnalyzePftlogConverter\VisualStudioAnalyzePftlogConverter
