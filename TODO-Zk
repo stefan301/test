@@ -2,4 +2,6 @@
 	- IntermediateDiffItems über Dateien hinweg gruppieren (gd_key/gd_key_ref-Attribute) -> required, cOnflicting und dann in eine eigene Datei schreiben
 	- beachten: was passiert bei Änderung (z.B. ComponentCode eines Devices -> Referenzen vorher/nachher unterschiedlich)
 	- Alternative zu den Änderungsgruppen?!
+- Header-Units:
+	- /Zc:preprocessor /translateInclude
 - D:\devtest\VisualStudioAnalyzePftlogConverter\VisualStudioAnalyzePftlogConverter
