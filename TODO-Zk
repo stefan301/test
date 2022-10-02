@@ -1,3 +1,18 @@
+- Online-Compiler mal ausprobieren: cppshell, wandbox, repl.it
+- Technische Schulden:
+	- Designer-39634: make_unique_xxx_modifier
+	- ICOORD/ISQUARE/ANGLE evtl. nach E3_common verlagern und evtl. Code zusammenfassen
+	- ItemsOfSheet, ItemsWithIndex?
+	- GidItemMap an GuidItemMap angleichen
+- Bernds DB -> Projekt und. Unittests
+- Diff 2er verschiedener Symbole/Components?
+- Symbolgrafik als ganzes vergleichen?
+- Fortschrittsbalken während Diff
+- Pipelines:
+	- GD Schreib-/Lesetests
+	- Konvertierungstests
+- addierte/gelöschte Items aus temp. Undo ermitteln für COM-ItemCollector
+- ASIO-Server und WPF-Oberfläche
 - Diff3:
 	- IntermediateDiffItems über Dateien hinweg gruppieren (gd_key/gd_key_ref-Attribute) -> required, cOnflicting und dann in eine eigene Datei schreiben
 	- beachten: was passiert bei Änderung (z.B. ComponentCode eines Devices -> Referenzen vorher/nachher unterschiedlich)
